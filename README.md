@@ -11,7 +11,11 @@ Riemann zeta function
 ## How TO Work (Logic):
   
   1- Take N(100,1000,10000,....) from User and Number Of Process 
+  
   2- Divide N on Number Of Process (Master Process which do Divide) 
+  
   3- Each process calculate Riemann zeta function for each range 
+  
   4- Each process send to Master Process final result And add them to each other using __MPI_Reduce__
+  
   5- calculate Speed and Performance for  testing 
